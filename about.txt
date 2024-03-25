@@ -1,0 +1,18 @@
+HTML: 
+-basic boilerplate with link to css stylesheet.
+-Title h1 and a div in the main to hold the author cards. 
+-Button to load more authors
+-Script tag to link JS
+
+CSS:
+-basic set up for display, rood to hold color variables. 
+-flexbox to control display of author cards, with sytling for the card elements themselves
+-Image, opject fit cover to display
+-styling for the Button
+
+JS:
+-uses getElementById() to get the container and button from the dom
+-Decalres a couple of variables we will use when dealing with the array of generated author cards. 
+-The fecth with JSON to import the data, then uses a display aouthors function to loop through and create the html to display the author dcard. 
+-Set up for 8 authors at a time so a fetch more function to add additional aftet the first 8. 
+-Ties this functionality to the load more button with an event listener. 
